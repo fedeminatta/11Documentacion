@@ -41,17 +41,16 @@ td {
 
 #ul-menu {
 	list-style: none;
-	width: 200px; /* Set a width if you like */
+	width: 200px;
 	font-size: 20px;
 	font-weight: 500;
 }
 
 #ul-menu a {
-	/*background-color: #eee;  Grey background color */
-	color: #fff; /* Black text color */
-	display: block; /* Make the links appear below each other */
-	padding: 12px; /* Add some padding */
-	text-decoration: none; /* Remove underline from links */
+	color: #fff;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
 }
 
 #ul-menu a:hover {
