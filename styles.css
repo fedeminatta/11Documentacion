@@ -1,0 +1,77 @@
+body {
+	font-family: comic sans ms, Gill Sans Extrabold, Helvetica, sans-serif;
+	background-color: #062724;
+	color: #fff;
+}
+
+h2 {
+	background-color: #061615;
+}
+
+#navbar {
+	position: fixed;
+	height: 100vh;
+	width: 30vw;
+	scroll-behavior: auto;
+}
+
+#div-general {
+	display: flex;
+	align-items: stretch;
+}
+
+#div-main {
+	top: 0px;
+	margin-left: 260px;
+}
+
+#div-nav {
+	top: 0px;
+	left: 0px;
+}
+
+#code {
+	background: #061615;
+}
+
+td {
+	border: black 3px solid;
+	text-align: center;
+}
+
+#ul-menu {
+	list-style: none;
+	width: 200px; /* Set a width if you like */
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#ul-menu a {
+	/*background-color: #eee;  Grey background color */
+	color: #fff; /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+}
+
+#ul-menu a:hover {
+	background-color: #061615;
+}
+
+#ul-menu a.active {
+	background-color: #061615;
+	color: white;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	padding-left: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		font-size: 20px;
+	}
+}
