@@ -20,6 +20,7 @@ h2 {
 	background-color: #0d413de8;
 	overflow: 1000;
 	height: 100vh;
+	top: 0;
 	width: 400px;
 	max-width: 95%;
 	scroll-behavior: auto;
